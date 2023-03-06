@@ -4,8 +4,7 @@ var positiveSum = (arr1) =>{
     var sumIntegers = 0
     for(var i =0;i<arrayLength;i++){
         var temp = arr1[i]
-        if (temp>0){
-            
+        if (temp>0){ 
             sumIntegers += arr1[i]
         }  
     }
@@ -13,3 +12,5 @@ var positiveSum = (arr1) =>{
 }
 var result = positiveSum([-8,8,9,12,-85])
 console.log(result)
+
+//Made by Syed Ahmed Haider Razvi 
